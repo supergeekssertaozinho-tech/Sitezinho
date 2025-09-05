@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Final - Aulas de IA</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background: linear-gradient(to right, lightblue, rgb(193, 193, 247) 75%);
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        main {
+            background: rgba(255, 255, 200, 0.8);
+            padding: 20px;
+        }
+
+        .section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px 0;
+            gap: 20px;
+        }
+
+        .section img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: all 0.6s ease;
+            cursor: pointer;
+        }
+
+        .section img:hover {
+            width: 320px;
+            height: 320px;
+            transform: translateY(-10px);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        .section p {
+            max-width: 300px;
+            font-size: 18px;
+        }
+
+        .section:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        footer {
+            background: linear-gradient(to left, lightblue, rgb(193, 193, 247) 75%);
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        footer h3 {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Projeto Final - Aulas de IA</h1>
+    </header>
+
+    <main>
+        <div class="section">
+            <img src="imagem1.jpg" alt="Imagem 1">
+            <p>Descrição da primeira imagem do projeto.</p>
+        </div>
+
+        <div class="section">
+            <img src="https://via.placeholder.com/300" alt="Imagem 2">
+            <p>Descrição da segunda imagem do projeto.</p>
+        </div>
+
+        <div class="section">
+            <img src="https://via.placeholder.com/300" alt="Imagem 3">
+            <p>Descrição da terceira imagem do projeto.</p>
+        </div>
+
+        <div class="section">
+            <img src="https://via.placeholder.com/300" alt="Imagem 4">
+            <p>Descrição da quarta imagem do projeto.</p>
+        </div>
+
+        <div class="section">
+            <img src="https://via.placeholder.com/300" alt="Imagem 5">
+            <p>Descrição da quinta imagem do projeto.</p>
+        </div>
+    </main>
+
+    <footer>
+        <h3>Desenvolvido por Giovany</h3>
+    </footer>
+</body>
+
+</html>
